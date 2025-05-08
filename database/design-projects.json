@@ -1,0 +1,74 @@
+[
+  {
+    "id": "design-1",
+    "title": "Redesign de Marca",
+    "category": "design",
+    "image": "/api/placeholder/400/300",
+    "shortDescription": "Renovação visual para startup",
+    "fullDescription": "Redesign completo da identidade visual de uma startup de tecnologia, incluindo logotipo, paleta de cores, tipografia, elementos gráficos e guia de estilo para aplicações digitais e impressas.",
+    "client": "TechStart Solutions",
+    "technologies": "Adobe Illustrator, Photoshop, Figma",
+    "date": "Fevereiro 2023",
+    "url": "#"
+  },
+  {
+    "id": "design-2",
+    "title": "Design de Aplicativo",
+    "category": "design",
+    "image": "/api/placeholder/400/300",
+    "shortDescription": "UI/UX para app de entregas",
+    "fullDescription": "Design de interface e experiência do usuário para aplicativo de delivery, com foco em usabilidade, acessibilidade e conversão. Inclui pesquisa de usuários, wireframes, protótipos e testes.",
+    "client": "QuickDelivery",
+    "technologies": "Figma, Adobe XD, Maze",
+    "date": "Abril 2023",
+    "url": "#"
+  },
+  {
+    "id": "design-3",
+    "title": "Website Institucional",
+    "category": "design",
+    "image": "/api/placeholder/400/300",
+    "shortDescription": "Design para empresa de arquitetura",
+    "fullDescription": "Design completo de website institucional para escritório de arquitetura, com foco em portfolio visual, experiência imersiva e conversão de leads. Design responsivo para todas as plataformas.",
+    "client": "ModernArch Studio",
+    "technologies": "Figma, Adobe Photoshop, Illustrator",
+    "date": "Junho 2023",
+    "url": "#"
+  },
+  {
+    "id": "design-4",
+    "title": "Campanha Digital",
+    "category": "design",
+    "image": "/api/placeholder/400/300",
+    "shortDescription": "Materiais para redes sociais",
+    "fullDescription": "Criação de identidade visual e peças para campanha digital multiplataforma, incluindo posts para redes sociais, banners, stories, e-mail marketing e landing page.",
+    "client": "EcoBeauty Cosméticos",
+    "technologies": "Adobe Photoshop, Illustrator, After Effects",
+    "date": "Agosto 2023",
+    "url": "#"
+  },
+  {
+    "id": "design-5",
+    "title": "Dashboard Financeiro",
+    "category": "design",
+    "image": "/api/placeholder/400/300",
+    "shortDescription": "UI para plataforma bancária",
+    "fullDescription": "Design de interface para dashboard de plataforma bancária digital, com foco em visualização clara de dados financeiros, segurança e experiência intuitiva para diferentes perfis de usuários.",
+    "client": "NextBank Digital",
+    "technologies": "Figma, Sketch, Principle",
+    "date": "Outubro 2023",
+    "url": "#"
+  },
+  {
+    "id": "design-6",
+    "title": "Design de Embalagem",
+    "category": "design",
+    "image": "/api/placeholder/400/300",
+    "shortDescription": "Linha de produtos orgânicos",
+    "fullDescription": "Design de sistema de embalagens para linha de produtos alimentícios orgânicos, com foco em sustentabilidade, diferenciação no ponto de venda e comunicação de valores da marca.",
+    "client": "NaturalFood Orgânicos",
+    "technologies": "Adobe Illustrator, Photoshop, Dimension",
+    "date": "Dezembro 2023",
+    "url": "#"
+  }
+]

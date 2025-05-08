@@ -1,0 +1,288 @@
+/* DARK MODE */
+:root {
+  /* LIGHT-MODE VAR */
+  --primary-color: #4361ee;
+  --transition: all 0.3s ease;
+  --shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  --radius: 8px;
+  --header-height: 80px;
+
+  /* DARK-MODE VAR */
+  --dark-primary-color: #738efc;
+  --dark-secondary-color: #6c63e8;
+  --dark-accent-color: #70d7f7;
+  --dark-text-color: #e6e6e6;
+  --dark-text-light: #b8b8b8;
+  --dark-bg-color: #121212;
+  --dark-bg-light: #1e1e1e;
+  --dark-bg-dark: #0a0a0a;
+  --dark-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+body.dark-mode {
+  background-color: var(--dark-bg-color);
+  color: var(--dark-text-color);
+}
+
+/* HEADER */
+body.dark-mode header.scrolled {
+  background-color: var(--dark-bg-color);
+  box-shadow: var(--dark-shadow);
+}
+
+body.dark-mode .logo a {
+  color: var(--dark-primary-color);
+}
+
+body.dark-mode #navbar ul li a {
+  color: var(--dark-text-color);
+}
+
+body.dark-mode #navbar ul li a.active,
+body.dark-mode #navbar ul li a:hover {
+  color: var(--dark-primary-color);
+}
+
+body.dark-mode #navbar ul li a::after {
+  background-color: var(--dark-primary-color);
+}
+
+body.dark-mode .mobile-menu-btn span {
+  background-color: var(--dark-text-color);
+}
+
+/* HERO SECTION */
+body.dark-mode #hero {
+  background-color: var(--dark-bg-light);
+}
+
+body.dark-mode .animated-text span {
+  color: var(--dark-primary-color);
+}
+
+body.dark-mode .social-icons a {
+  background-color: var(--dark-bg-dark);
+  color: var(--dark-primary-color);
+  box-shadow: var(--dark-shadow);
+}
+
+body.dark-mode .social-icons a:hover {
+  background-color: var(--dark-primary-color);
+  color: var(--dark-bg-dark);
+}
+
+/* ABOUT SECTION */
+body.dark-mode #about {
+  background-color: var(--dark-bg-color);
+}
+
+body.dark-mode .about-text p {
+  color: var(--dark-text-light);
+}
+
+/* SKILLS SECTION */
+body.dark-mode #skills {
+  background-color: var(--dark-bg-light);
+}
+
+body.dark-mode .progress-bar {
+  background-color: #333;
+}
+
+body.dark-mode .progress {
+  background-color: var(--dark-primary-color);
+}
+
+body.dark-mode .tool-item {
+  background-color: var(--dark-bg-color);
+  box-shadow: var(--dark-shadow);
+}
+
+body.dark-mode .tool-item i {
+  color: var(--dark-primary-color);
+}
+
+/* PORTFOLIO SECTION */
+body.dark-mode #portfolio {
+  background-color: var(--dark-bg-color);
+}
+
+body.dark-mode .category-btn {
+  color: var(--dark-text-color);
+}
+
+body.dark-mode .category-btn.active,
+body.dark-mode .category-btn:hover {
+  background-color: var(--dark-primary-color);
+  color: var(--dark-bg-dark);
+}
+
+body.dark-mode .carousel-arrow {
+  background-color: var(--dark-bg-light);
+  color: var(--dark-text-color);
+  box-shadow: var(--dark-shadow);
+}
+
+body.dark-mode .carousel-arrow:hover {
+  background-color: var(--dark-primary-color);
+  color: var(--dark-bg-dark);
+}
+
+/* RESUME SECTION */
+body.dark-mode #resume {
+  background-color: var(--dark-bg-light);
+}
+
+body.dark-mode .timeline::before {
+  background-color: var(--dark-primary-color);
+}
+
+body.dark-mode .timeline-dot {
+  background-color: var(--dark-primary-color);
+  border: 4px solid var(--dark-bg-light);
+}
+
+body.dark-mode .timeline-date {
+  background-color: var(--dark-primary-color);
+  color: var(--dark-bg-dark);
+}
+
+body.dark-mode .timeline-content {
+  background-color: var(--dark-bg-color);
+  box-shadow: var(--dark-shadow);
+}
+
+body.dark-mode .timeline-content h5 {
+  color: var(--dark-primary-color);
+}
+
+body.dark-mode .timeline-content p {
+  color: var(--dark-text-light);
+}
+
+/* CONTACT SECTION */
+body.dark-mode #contact {
+  background-color: var(--dark-bg-color);
+}
+
+body.dark-mode .contact-info p {
+  color: var(--dark-text-light);
+}
+
+body.dark-mode .contact-item .icon {
+  background-color: rgba(115, 142, 252, 0.1);
+  color: var(--dark-primary-color);
+}
+
+body.dark-mode .contact-item .text p,
+body.dark-mode .contact-item .text p a {
+  color: var(--dark-text-light);
+}
+
+body.dark-mode .contact-item .text p a:hover {
+  color: var(--dark-primary-color);
+}
+
+body.dark-mode .social-links a {
+  background-color: var(--dark-primary-color);
+  color: var(--dark-bg-dark);
+}
+
+body.dark-mode .social-links a:hover {
+  background-color: var(--dark-secondary-color);
+}
+
+body.dark-mode .form-group input,
+body.dark-mode .form-group textarea {
+  background-color: var(--dark-bg-light);
+  border: 1px solid #333;
+  color: var(--dark-text-color);
+}
+
+body.dark-mode .form-group input:focus,
+body.dark-mode .form-group textarea:focus {
+  border-color: var(--dark-primary-color);
+  box-shadow: 0 0 0 3px rgba(115, 142, 252, 0.2);
+}
+
+/* FOOTER */
+body.dark-mode footer {
+  background-color: var(--dark-bg-dark);
+}
+
+body.dark-mode .footer-links a:hover {
+  color: var(--dark-accent-color);
+}
+
+/* BACK BUTTON */
+body.dark-mode .back-to-top {
+  background-color: var(--dark-primary-color);
+  color: var(--dark-bg-dark);
+  box-shadow: var(--dark-shadow);
+}
+
+body.dark-mode .back-to-top:hover {
+  background-color: var(--dark-secondary-color);
+}
+
+/* MODAL */
+body.dark-mode .modal-content {
+  background-color: var(--dark-bg-color);
+}
+
+body.dark-mode .close-modal {
+  color: var(--dark-text-color);
+}
+
+body.dark-mode .close-modal:hover {
+  color: var(--dark-primary-color);
+}
+
+body.dark-mode .project-details-info p {
+  color: var(--dark-text-light);
+}
+
+body.dark-mode .project-details-info p strong {
+  color: var(--dark-text-color);
+}
+
+/* DARK-MODE BUTTON */
+.theme-toggle-li {
+  margin-left: 30px;
+  display: flex;
+  align-items: center;
+}
+
+.theme-toggle {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: var(--primary-color);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  box-shadow: var(--shadow);
+  transition: var(--transition);
+}
+
+.theme-toggle:hover {
+  transform: rotate(30deg);
+}
+
+body.dark-mode .theme-toggle {
+  background-color: var(--dark-primary-color);
+  color: var(--dark-bg-dark);
+}
+
+/* RESPONSIVIDADE */
+@media (max-width: 768px) {
+  .theme-toggle-li {
+    margin: 15px 0 0 0;
+  }
+
+  .theme-toggle {
+    margin: 0 auto;
+  }
+}

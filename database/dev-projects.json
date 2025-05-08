@@ -1,0 +1,74 @@
+[
+  {
+    "id": "dev-1",
+    "title": "E-commerce Responsivo",
+    "category": "dev",
+    "image": "/api/placeholder/400/300",
+    "shortDescription": "Loja virtual responsiva com React",
+    "fullDescription": "Desenvolvimento completo de uma loja virtual responsiva utilizando React, Redux e integração com API RESTful. O projeto possui recursos como carrinho de compras, favoritos, avaliações de produtos e processamento de pagamentos.",
+    "client": "ModaStore Brasil",
+    "technologies": "React, Redux, Node.js, MongoDB",
+    "date": "Janeiro 2023",
+    "url": "#"
+  },
+  {
+    "id": "dev-2",
+    "title": "Aplicativo de Tarefas",
+    "category": "dev",
+    "image": "/api/placeholder/400/300",
+    "shortDescription": "App de gerenciamento de tarefas",
+    "fullDescription": "Aplicativo web para gerenciamento de tarefas e projetos com recursos de arrastar e soltar, categorização, priorização, notificações e compartilhamento entre equipes.",
+    "client": "ProdTeam Solutions",
+    "technologies": "JavaScript, Vue.js, Firebase",
+    "date": "Março 2023",
+    "url": "#"
+  },
+  {
+    "id": "dev-3",
+    "title": "Dashboard Analítico",
+    "category": "dev",
+    "image": "/api/placeholder/400/300",
+    "shortDescription": "Painel de analytics para empresas",
+    "fullDescription": "Dashboard analítico completo para visualização de dados empresariais, com gráficos interativos, filtros avançados e relatórios personalizados. Integração com diversas fontes de dados e APIs.",
+    "client": "DataVision Corp",
+    "technologies": "JavaScript, D3.js, Chart.js, Express",
+    "date": "Maio 2023",
+    "url": "#"
+  },
+  {
+    "id": "dev-4",
+    "title": "Rede Social para Fotógrafos",
+    "category": "dev",
+    "image": "/api/placeholder/400/300",
+    "shortDescription": "Plataforma para compartilhar fotos",
+    "fullDescription": "Rede social especializada para fotógrafos compartilharem trabalhos, conectarem-se com clientes e venderem suas fotos. Recursos de galeria, perfis, chat e sistema de pagamentos.",
+    "client": "ClickArt Network",
+    "technologies": "React, Node.js, GraphQL, AWS",
+    "date": "Julho 2023",
+    "url": "#"
+  },
+  {
+    "id": "dev-5",
+    "title": "Blog de Tecnologia",
+    "category": "dev",
+    "image": "/api/placeholder/400/300",
+    "shortDescription": "Portal de notícias tech",
+    "fullDescription": "Portal de conteúdo sobre tecnologia com sistema de blog, categorias, comentários, sistema de busca avançada e área de membros exclusivos.",
+    "client": "TechNews Brasil",
+    "technologies": "WordPress, PHP, MySQL, JavaScript",
+    "date": "Setembro 2023",
+    "url": "#"
+  },
+  {
+    "id": "dev-6",
+    "title": "Aplicativo de Fitness",
+    "category": "dev",
+    "image": "/api/placeholder/400/300",
+    "shortDescription": "App de treinos personalizados",
+    "fullDescription": "Aplicativo web e mobile para acompanhamento de treinos, nutrição e evolução física. Inclui recursos de planos personalizados, vídeos demonstrativos e comunidade integrada.",
+    "client": "FitLife App",
+    "technologies": "React Native, Firebase, NodeJS",
+    "date": "Novembro 2023",
+    "url": "#"
+  }
+]
